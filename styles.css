@@ -194,3 +194,88 @@ footer {
     column-gap: 10px; 
     margin: 10px; 
 }
+#display-box {
+    border-radius: 10px;  
+}
+
+@media only screen and (min-width: 100px) and (max-width: 900px) {
+    #home {
+        display: block; 
+        width: 100%; 
+        margin: 5%; 
+    } 
+    .home-box-1 {
+        display: block; 
+        width: 100%; 
+        margin: 5%; 
+    }
+    .more-information, 
+    .main-theme, 
+    .slogan, 
+    .buttons, 
+    #surprise
+    #see-more, 
+    .heading-welcome {
+        margin: 10px;
+    } 
+    .menu {
+        display: block; 
+    } 
+    .menu-1 {
+        display: block; 
+        margin: 5%; 
+    } 
+    form {
+        display: block; 
+    } 
+    .submit-button {
+        display: block; 
+
+    } 
+    #submit, 
+    .copy-order {
+        margin: 2%; 
+    } 
+    #special {
+        display: block; 
+    } 
+    .special-box-1 {
+        display: block; 
+        margin: 5%; 
+    } 
+    .emoji, 
+    .special-heading, 
+    .offer-information, 
+    .time-and-price {
+        margin: 3%; 
+    } 
+    #contact {
+        display: block; 
+    } 
+    .address, 
+    .opening-hours, 
+    .contact-info {
+        display: block; 
+        margin: 5%; 
+    } 
+    .contact-container {
+        display: block;  
+    } 
+    footer {
+        display: block; 
+    } 
+    .copy-right, 
+    #return-button {
+        display: block; 
+        margin: 5%; 
+        text-align: center; 
+    } 
+    .buttons {
+        display: block; 
+        text-align: center; 
+    } 
+    #surprise, 
+    #see-more {
+        margin-top: 10px; 
+    }
+}
