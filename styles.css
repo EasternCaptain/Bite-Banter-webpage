@@ -26,24 +26,26 @@ body {
 
 } 
 .company-name {
-    margin-left: 15%;
     background-color: white; 
-    border: 1px solid black; 
-    border-radius:25px; 
+    color: black; 
     text-align: center; 
-    padding: 3%; 
+    margin: 20px; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
     font-size: 2rem; 
-    margin: 10%; 
-} 
+    display: inline-block; 
+}  
 #order-button {
     background-color: black; 
     color: white; 
     text-align: center; 
-    margin: 10%; 
-    padding: 3%; 
+    margin: 20px;        /* Changed from 10% */
+    padding: 10px 20px;  /* Changed from 3% (Top/Bottom 10px, Left/Right 20px) */
     border-radius: 25px; 
     font-size: 2rem; 
-} 
+    display: inline-block;
+}
+    
 a {
     font-weight: 550; 
     text-decoration: none; 
@@ -277,5 +279,17 @@ footer {
     #surprise, 
     #see-more {
         margin-top: 10px; 
+    } 
+    .header {
+        display: block; 
+    } 
+    .nav-links {
+        display: block; 
+    } 
+    .nav-links {
+        display: block; 
+        margin-left: 40%; 
+        margin-top: 10%; 
+        margin-bottom: 5%; 
     }
 }
